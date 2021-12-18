@@ -1,10 +1,10 @@
 import * as React from 'react';
 import Layout from '../components/layout';
 
-export default function IndexPage() {
+export default function MergeSort() {
   return (
     <Layout>
-      <h1>Funny dashboard</h1>
+      <div>Merge sort page</div>
     </Layout>
   );
 }
