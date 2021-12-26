@@ -465,9 +465,9 @@ export default function Layout({ children }) {
           </ul>
         </div>
       </div>
-      <div className="container mx-auto py-10 md: q w-11/12 px-6">
+      <div className="container mx-auto py-10 md: q w-11/12 px-6 overflow-y-scroll">
         {/* Remove class [ border-dashed border-2 border-gray-300 ] to remove dotted border */}
-        <div className="w-full h-full rounded border-dashed border-2 border-gray-300">
+        <div className="w-full h-full rounded border-dashed border-2 border-gray-300 ">
           {children}
         </div>
       </div>
